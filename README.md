@@ -1,4 +1,4 @@
-# uvTemplate
+# pythonLearningTemplate
 
 Template for easy startups with Projects using VS Code
 
@@ -92,17 +92,23 @@ This task will:
 ## Project Structure
 
 ```
-uvTemplate/
-├── app/
-│   ├── main.py              # FastAPI application entry point
-│   └── src/
-│       ├── __init__.py
-│       └── endpoint1FileName.py
-├── images/                  # Screenshots for documentation
+pythonLearningTemplate/
+├── files/
+│   └── Salary Data.csv     # Sample data files
+├── images/                 # Screenshots for documentation
+│   ├── Create_Virtual_Environment.png
+│   ├── Export_Packages.png
+│   ├── Extensions_Task_Complete.png
+│   ├── Install_Recommended_Extensions.png
+│   ├── Install_UV.png
+│   └── Run_Task.png
 ├── .vscode/
-│   ├── tasks.json          # VS Code task configurations
-│   └── extensions.json     # Recommended extensions
+│   ├── extensions.json     # Recommended extensions
+│   ├── launch.json         # Debug configurations
+│   ├── settings.json       # VS Code settings
+│   └── tasks.json          # VS Code task configurations
 ├── pyproject.toml          # Project configuration and dependencies
+├── pythonLessonFile.ipynb  # Jupyter notebook for Python lessons
 ├── uv.lock                 # Locked dependency versions
 └── README.md               # This file
 ```
